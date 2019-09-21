@@ -1,0 +1,114 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 134}, {290, 226}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "ECF23218-103F-454A-9824-9A9DFB48B96E",
+          "font_size" : 17,
+          "background_color" : "RGBA(0.978022,1.000000,0.846154,1.000000)",
+          "frame" : "{{44, 52}, {200, 200}}",
+          "border_color" : "RGBA(0.704120,0.704120,0.704120,1.000000)",
+          "editable" : true,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "textview",
+          "flex" : "WHB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 92}, {290, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "uuid" : "A07ADB22-2BF7-4D01-94A6-65F7174C3057",
+          "frame" : "{{51, 166}, {200, 34}}",
+          "value" : 0.5,
+          "class" : "Slider",
+          "name" : "slider",
+          "flex" : "W"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 66}, {58, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "labelFaster",
+          "frame" : "{{76, 167}, {150, 32}}",
+          "uuid" : "E9AADB2F-F868-4D2C-952F-EB6401B6A8E9",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "速い",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{219, 66}, {77, 25}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "L",
+          "name" : "labelSlower",
+          "frame" : "{{76, 167}, {150, 32}}",
+          "uuid" : "F77A9AE6-FE03-485E-8078-EBA968FDA6DE",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "遅い",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {290, 61}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "W",
+          "action" : "flash_message",
+          "image_name" : "iob:flash_32",
+          "frame" : "{{104, 136}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.857143,0.000000,1.000000)",
+          "title" : "",
+          "uuid" : "1E004B4B-F10E-4278-9467-7253C76C5F09",
+          "class" : "Button",
+          "background_color" : "RGBA(0.528090,0.499074,0.324978,1.000000)",
+          "font_size" : 15,
+          "name" : "button"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {302, 366}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "モールス信号",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
